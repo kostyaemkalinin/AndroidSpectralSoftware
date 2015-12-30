@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:id="@+id/feedlistrelative"
+    >
+    <TextView
+        android:id="@+id/fMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop ="5dp"
+        android:paddingLeft="5dp"
+        android:paddingBottom="5dp"
+        android:lines="2"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        >
+    </TextView>
+    <TextView
+        android:id="@+id/fName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:textColor="#333333"
+        android:layout_below="@+id/fMsg"
+        android:textSize="10sp"
+        >
+    </TextView>
+    <TextView
+        android:id="@+id/fDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#333333"
+        android:layout_below="@+id/fMsg"
+        android:layout_toRightOf="@+id/fName"
+        android:textSize="10sp"
+        >
+    </TextView>
+</RelativeLayout>
